@@ -15,11 +15,17 @@ import ScienceIcon from '@mui/icons-material/Science';
 import LanguageIcon from '@mui/icons-material/Language';
 
 import RepeatIcon from '@mui/icons-material/Repeat';
+import Wave from 'react-wavify'
+
 import Typography from '@mui/material/Typography';
 
 export class Aboutme extends Component {
     render() {
         return (
+
+            <div>
+
+
           <Timeline position="alternate">
       <TimelineItem>
         <TimelineOppositeContent
@@ -192,6 +198,8 @@ export class Aboutme extends Component {
         </TimelineContent>
       </TimelineItem>
     </Timeline>
+
+    </div>
         )
     }
 }

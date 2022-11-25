@@ -8,10 +8,13 @@ import { BrowserRouter  , Switch, Route } from "react-router-dom";
 import Home from './Components/Home';
 import Aboutme from './Components/Aboutme'
 import Projects from './Components/Projects'
+import Back from './Components/Back';
 
 function App() {
   return (
     <div className="App">
+      <Back/>
+
       <BrowserRouter>
              <NavBar/>
                <Switch>
